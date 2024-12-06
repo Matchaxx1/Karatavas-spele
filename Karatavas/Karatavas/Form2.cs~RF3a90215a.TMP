@@ -1,0 +1,70 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Diagnostics.Eventing.Reader;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Karatavas
+{
+    public partial class Form2 : Form
+    {
+        string[] Vardi = {"ūdens", "zieds", "sirds", "skats", "laime", "kaķis", "lauva", "svece", "zelts",
+        "gulta", "saule", "tārps", "krāsa", "bumba", "lauks", "burts", "tilts", "vārds","mājas", "pļava", "raksts", "skola", "varde", "kurpe","miegs" };
+
+        string IzveletaisVards;
+        char[] paraditVardu;
+        int NepareiziMeginajumi;
+        
+        Random rnd;
+
+
+        public Form2()
+        {
+            InitializeComponent();
+
+            
+
+
+            
+
+        }
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            NepareiziMeginajumi = 0;
+            rnd = new Random();
+            IzveletaisVards = Vardi[rnd.Next(Vardi.Length)];
+            paraditVardu = new string(IzveletaisVards.Length, '_').ToCharArray();
+
+            string formattedparaditVardu = string.Join(" ", paraditVardu);
+
+        }
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            label4.Text = IegutVardu();
+        }
+
+        private void butA_Click(object sender, EventArgs e)
+        {
+            IzveletaisBurts = "A";
+            label5.Text =  IzveletaisBurts;
+
+        }
+
+        private void butMinet_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+    }
+}

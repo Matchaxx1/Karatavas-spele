@@ -1,0 +1,96 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Diagnostics.Eventing.Reader;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Karatavas
+{
+    public partial class Form2 : Form
+    {
+        
+        List<string> vardi = new List<string>()
+        {
+            "ūdens", "zieds", "sirds", "skats", "laime", "kaķis", "lauva", "svece", "zelts",
+            "gulta", "saule", "tārps", "krāsa", "bumba", "lauks", "burts", "tilts", "vārds","mājas", "pļava", "skola", "varde", "kurpe","miegs"
+        };
+        private char[] paraditVardu;
+        private int NepareiziMeginajumi;
+        private char CharIzveletaisBurts;
+        private string IzveletaisBurts;
+        Random rnd;
+        private string RandomVards;
+
+        
+
+        public Form2()
+        {
+            InitializeComponent();
+            RakstitVardu();
+            
+
+        }
+
+        List<Label> labels = new List<Label>();
+
+        void VeidotLabels()
+        {
+            
+        }
+
+
+        char[] RakstitVardu()
+        {
+            RandomVards = IegutVardu();
+            label4.Text = RandomVards;
+            paraditVardu = new string('_', RandomVards.Length).ToCharArray();
+            label1.Text = string.Join(" ", paraditVardu);
+            return paraditVardu;
+        }
+        string IegutVardu()
+        {
+            string[] Vardi = {"ūdens", "zieds", "sirds", "skats", "laime", "kaķis", "lauva", "svece", "zelts",
+            "gulta", "saule", "tārps", "krāsa", "bumba", "lauks", "burts", "tilts", "vārds","mājas", "pļava", "skola", "varde", "kurpe","miegs" };
+            rnd = new Random();
+            int i = rnd.Next(Vardi.Length);
+            return Vardi[i];
+
+
+        }
+
+        private void MinetBurtu()
+        {
+            
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void butA_Click(object sender, EventArgs e)
+        {
+            CharIzveletaisBurts = 'A';
+            IzveletaisBurts = "A";
+            label5.Text =  IzveletaisBurts;
+
+        }
+
+        private void butMinet_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+    }
+}

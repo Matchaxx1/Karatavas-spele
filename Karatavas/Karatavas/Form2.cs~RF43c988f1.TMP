@@ -1,0 +1,134 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Diagnostics.Eventing.Reader;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Karatavas
+{
+    public partial class Form2 : Form
+    {
+
+        List<string> vardi = new List<string>()
+        {
+            "ūdens", "zieds", "sirds", "skats", "laime", "kaķis", "lauva", "svece", "zelts",
+            "gulta", "saule", "tārps", "krāsa", "bumba", "lauks", "burts", "tilts", "vārds","mājas", "pļava", "skola", "varde", "kurpe","miegs"
+        };
+
+        int NepareiziMeginajumi;
+        Random rnd;
+        string NejausaisVards;
+        string IzveletaisBurts;
+        char[] displayWord;
+
+
+
+
+        public Form2()
+        {
+            InitializeComponent();
+
+
+
+        }
+
+        
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            NepareiziMeginajumi = 0;
+            rnd = new Random();
+            NejausaisVards = vardi[rnd.Next(vardi.Count)];
+
+            label4.Text = NejausaisVards;
+            displayWord = new string('_', NejausaisVards.Length).ToCharArray();
+            string formattedDisplayWord = string.Join(" ", displayWord);
+            label1.Text = formattedDisplayWord;
+        }
+        private void butMinet_Click(object sender, EventArgs e)
+        {
+            string guessedLetter = IzveletaisBurts;
+
+    char[] wordArray = NejausaisVards.ToCharArray();
+
+    for (int i = 0; i < wordArray.Length; i++)
+    {
+        if (wordArray[i].ToString() == guessedLetter)
+        {
+            displayWord[i] = guessedLetter[0]; // reveal the correct letter
+        }
+    }
+
+    label1.Text = string.Join(" ", displayWord);
+            if (!PareizsMeginajums)
+            {
+               MainitKaratavuFoto();
+               NepareiziMeginajumi++;
+                
+            }
+            if (!label1.Text.Contains('_'))
+            {
+                Form3 form3 = new Form3();
+                form3.Show();
+                this.Hide();
+            }
+
+        }
+
+        private void MainitKaratavuFoto()
+        {
+           switch (NepareiziMeginajumi)
+            {
+                case 1:
+                    pictureBox1.Image = Properties.Resources.foto2;
+                    break;
+                case 2:
+                    pictureBox1.Image = Properties.Resources.foto3;
+                    break;
+                case 3:
+                    pictureBox1.Image = Properties.Resources.foto4;
+                    break;
+                case 4:
+                    pictureBox1.Image = Properties.Resources.foto5;
+                    break;
+                case 5:
+                    pictureBox1.Image = Properties.Resources.foto6;
+                    break;
+                case 6:
+                    pictureBox1.Image = Properties.Resources.foto7;
+                    break;
+                case 7:
+                    pictureBox1.Image = Properties.Resources.foto8;
+                    break;
+                
+            }
+        }
+    
+
+        private void button11_Click(object sender, EventArgs e)
+        { 
+            Application.Exit();
+
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void butA_Click(object sender, EventArgs e)
+        {
+
+            IzveletaisBurts = "a";
+            label5.Text = IzveletaisBurts;
+
+        }
+
+        
+
+    }
+}

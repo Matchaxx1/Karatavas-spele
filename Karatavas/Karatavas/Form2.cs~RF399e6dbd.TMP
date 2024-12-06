@@ -1,0 +1,80 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Karatavas
+{
+    public partial class Form2 : Form
+    {
+        private string[] Vardi = {"draugs", "zieds", "sirds", "skats", "laime", "kaķis", "lauva", "svece", "zelts",
+        "gulta", "saule", "sniegs", "krāsa", "bumba", "lauks", "debess", "tilts", "dzelzs","mājas", "pļava", "raksts", "skola", "varde", "kurpe" };
+
+        private string IzveletaisBurts = "";
+        private int NepareiziMeginajumi = 0;
+        private string IzveletaisVards = "";
+
+        public Form2()
+        {
+            InitializeComponent();
+
+            string vards = IegutVardu();
+            char[] charVards = vards.ToCharArray();
+
+            //label11.Text = charVards[0].ToString();
+            //label10.Text = charVards[1].ToString();
+            //label9.Text = charVards[2].ToString();
+            //label8.Text = charVards[3].ToString();
+            //label7.Text = charVards[4].ToString();
+
+            PirmaisBurts = charVards[0].ToString();
+            OtraisBurts = charVards[1].ToString();
+            TresaisBurts = charVards[2].ToString();
+            CeturtaisBurts = charVards[3].ToString();
+            PiektaisBurts = charVards[4].ToString();
+            if IzveletaisBurts = 
+
+        }
+
+        string IegutVardu()
+        {
+           Random rnd = new Random();
+           IzveletaisVards = Vardi[rnd.Next(0, Vardi.Length)];
+           return IzveletaisVards;
+        }
+
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            label4.Text = IegutVardu();
+        }
+
+        private void butA_Click(object sender, EventArgs e)
+        {
+            IzveletaisBurts = "A";
+            label5.Text =  IzveletaisBurts;
+
+        }
+
+        private void butMinet_Click(object sender, EventArgs e)
+        {
+            if (label5.Text == burts1.Text){
+
+            }else
+            {
+                NepareiziMeginajumi++;
+            }
+        }
+    }
+}

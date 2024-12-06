@@ -1,0 +1,65 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Karatavas
+{
+    public partial class Form2 : Form
+    {
+        private int NepareiziMeginajumi = 0;
+        private string IzveletaisBurts = "";
+        public Form2()
+        {
+            InitializeComponent();
+            
+        }
+
+        string NejausaisVards()
+        {
+            string[] IzveletaisVards = {"draugs", "zieds", "sirds", "skats", "laime", "rudzi", "kļava", "vieta", "zelts",
+"gulta", "saule", "sniegs", "krāsa", "balts", "lauks", "debess", "tilts", "dzelzs",
+"mājas", "pļava", "raksts", "skola","brīvs", "ēdams" };
+
+            Random rnd = new Random();
+            string nejausaisVards = IzveletaisVards[rnd.Next(IzveletaisVards.Length)];
+
+            label5.Text = nejausaisVards;
+            return nejausaisVards;
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            NejausaisVards();
+        }
+
+        private void butA_Click(object sender, EventArgs e)
+        {
+            string IzveletaisBurts = "A";
+            label3.Text = "Šobrīd izvēlētais burts: " + IzveletaisBurts;
+
+        }
+
+        private void butMinet_Click(object sender, EventArgs e)
+        {
+            if (label5.Text == burts1.Text){
+
+            }else
+            {
+                NepareiziMeginajumi++;
+            }
+        }
+    }
+}
