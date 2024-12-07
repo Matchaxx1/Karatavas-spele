@@ -113,6 +113,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="karatavasIkona.ico" />
+    <None Include="Resources\karatavasIkona-1.png" />
     <None Include="Resources\foto8.png" />
     <None Include="Resources\foto1.png" />
     <None Include="Resources\foto2.png" />

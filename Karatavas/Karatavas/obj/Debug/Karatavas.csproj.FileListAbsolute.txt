@@ -11,3 +11,16 @@ C:\Users\matis\OneDrive\Desktop\Programmesanas projekti\Karatavas\Karatavas\obj\
 C:\Users\matis\OneDrive\Desktop\Programmesanas projekti\Karatavas\Karatavas\obj\Debug\Karatavas.Form2.resources
 C:\Users\matis\OneDrive\Desktop\Programmesanas projekti\Karatavas\Karatavas\obj\Debug\Karatavas.Form3.resources
 C:\Users\matis\OneDrive\Desktop\Programmesanas projekti\Karatavas\Karatavas\obj\Debug\Karatavas.Form4.resources
+C:\Users\matis\OneDrive\Dokumenti\GitHub\Karatavas-Spele\Karatavas\Karatavas\bin\Debug\Karatavas.exe.config
+C:\Users\matis\OneDrive\Dokumenti\GitHub\Karatavas-Spele\Karatavas\Karatavas\bin\Debug\Karatavas.exe
+C:\Users\matis\OneDrive\Dokumenti\GitHub\Karatavas-Spele\Karatavas\Karatavas\bin\Debug\Karatavas.pdb
+C:\Users\matis\OneDrive\Dokumenti\GitHub\Karatavas-Spele\Karatavas\Karatavas\obj\Debug\Karatavas.csproj.AssemblyReference.cache
+C:\Users\matis\OneDrive\Dokumenti\GitHub\Karatavas-Spele\Karatavas\Karatavas\obj\Debug\Karatavas.Form1.resources
+C:\Users\matis\OneDrive\Dokumenti\GitHub\Karatavas-Spele\Karatavas\Karatavas\obj\Debug\Karatavas.Form2.resources
+C:\Users\matis\OneDrive\Dokumenti\GitHub\Karatavas-Spele\Karatavas\Karatavas\obj\Debug\Karatavas.Form3.resources
+C:\Users\matis\OneDrive\Dokumenti\GitHub\Karatavas-Spele\Karatavas\Karatavas\obj\Debug\Karatavas.Form4.resources
+C:\Users\matis\OneDrive\Dokumenti\GitHub\Karatavas-Spele\Karatavas\Karatavas\obj\Debug\Karatavas.Properties.Resources.resources
+C:\Users\matis\OneDrive\Dokumenti\GitHub\Karatavas-Spele\Karatavas\Karatavas\obj\Debug\Karatavas.csproj.GenerateResource.cache
+C:\Users\matis\OneDrive\Dokumenti\GitHub\Karatavas-Spele\Karatavas\Karatavas\obj\Debug\Karatavas.csproj.CoreCompileInputs.cache
+C:\Users\matis\OneDrive\Dokumenti\GitHub\Karatavas-Spele\Karatavas\Karatavas\obj\Debug\Karatavas.exe
+C:\Users\matis\OneDrive\Dokumenti\GitHub\Karatavas-Spele\Karatavas\Karatavas\obj\Debug\Karatavas.pdb

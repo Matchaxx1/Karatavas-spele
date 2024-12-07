@@ -12,17 +12,18 @@ namespace Karatavas
 {
     public partial class Form3 : Form
     {
-        public Form3()
+        public Form3(string NejausaisVards)
         {
             InitializeComponent();
+            label2.Text = "Vārds bija " + NejausaisVards + "!";
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             Application.Restart();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }

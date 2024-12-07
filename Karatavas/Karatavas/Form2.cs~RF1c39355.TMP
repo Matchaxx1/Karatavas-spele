@@ -41,6 +41,8 @@ namespace Karatavas
         string IzveletaisBurts;
         char[] charVards;
 
+        public string SutamaisVards = NejausaisVards;
+
         public Form2()
         {
             InitializeComponent();
@@ -109,18 +111,18 @@ namespace Karatavas
             label1.Text = string.Join(" ", charVards);
             if (PareizsMeginajums)
             {
-                SpiestaPoga.BackColor = System.Drawing.ColorTranslator.FromHtml("#74C365");
+                SpiestaPoga.BackColor = System.Drawing.Color.Green;
             }
             else
             {
-                SpiestaPoga.BackColor = System.Drawing.ColorTranslator.FromHtml("#E34234");    
+                SpiestaPoga.BackColor = System.Drawing.Color.Red;
                 MainitKaratavuFoto();
                 NepareiziMeginajumi++;
                 label6.Text = NepareiziMeginajumi.ToString() + " / 7";
             }
             if (!label1.Text.Contains('_'))
             {
-                Form3 form3 = new Form3(NejausaisVards);
+                Form3 form3 = new Form3();
                 form3.Show();
                 this.Hide();
             }
@@ -154,10 +156,9 @@ namespace Karatavas
                 case 6:
                     pictureBox1.Image = Properties.Resources.foto8;
 
-                    Form4 form4 = new Form4(NejausaisVards);
+                    Form4 form4 = new Form4();
 
                     form4.Show();
-                    this.Hide();
                     break;
             }
         }
@@ -193,12 +194,17 @@ namespace Karatavas
             }
         }
 
-        
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
 
+        private void button20_Click(object sender, EventArgs e) { }
 
         private void butA_Click(object sender, EventArgs e)
         {
-            
+            IzveletaisBurts = "a";
+            label5.Text = IzveletaisBurts;
         }
 
         private void LetterButton_Click(object sender, EventArgs e)
@@ -211,21 +217,23 @@ namespace Karatavas
             }
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+        }
+
         private void butMinetVardu_Click(object sender, EventArgs e)
         {
-            string teksts = textBox1.Text;
-            if (textBox1.Text == "")
-            {
-                MessageBox.Show("Lūdzu ievadiet vārdu!");
-                return;
-            }else if (teksts.Any(char.IsDigit))
-            {
-                MessageBox.Show("Lūdzu ievadiet vārdu, nevis ciparu!");
-                return;
-            }
             if (textBox1.Text == NejausaisVards)
             {
-                Form3 form3 = new Form3(NejausaisVards);
+                Form3 form3 = new Form3();
                 form3.Show();
                 this.Hide();
             }

@@ -118,28 +118,34 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="foto1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\foto1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="foto3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foto3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="karatavasIkona" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\karatavasIkona.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="foto2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\foto2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="foto3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\foto3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="foto4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\foto4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="foto5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\foto5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="foto1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foto1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="foto6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\foto6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="foto8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foto8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foto5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foto5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="foto7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\foto7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="foto8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\foto8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="foto4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foto4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="karatavasIkona_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\karatavasIkona-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
