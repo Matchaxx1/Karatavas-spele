@@ -92,9 +92,9 @@
             this.panel1.Controls.Add(this.butC);
             this.panel1.Controls.Add(this.butA);
             this.panel1.Font = new System.Drawing.Font("Comic Sans MS", 10F);
-            this.panel1.Location = new System.Drawing.Point(-3, 506);
+            this.panel1.Location = new System.Drawing.Point(-3, 515);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1078, 159);
+            this.panel1.Size = new System.Drawing.Size(1071, 153);
             this.panel1.TabIndex = 1;
             // 
             // butV
@@ -448,9 +448,10 @@
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(574, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(576, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(480, 488);
+            this.pictureBox1.Size = new System.Drawing.Size(478, 497);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
