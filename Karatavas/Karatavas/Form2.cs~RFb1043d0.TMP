@@ -10,41 +10,7 @@ namespace Karatavas
         List<string> vardi = new List<string>()
         {
             "ūdens",
-            "zieds",
-            "sirds",
-            "skats",
-            "laime",
-            "kaķis",
-            "lauva",
-            "svece",
-            "zelts",
-            "gulta",
-            "saule",
-            "tārps",
-            "krāsa",
-            "bumba",
-            "lauks",
-            "burts",
-            "tilts",
-            "vārds",
-            "mājas",
-            "pļava",
-            "skola",
-            "varde",
-            "kurpe",
-            "miegs",
-            "uzvara",
-            "hokejs",
-            "grozs",
-            "karjera",
-            "karogs",            
-            "čempions",
-            "eiropa",
-            "komanda",
-            "bērns"
-            
-
-
+            "Pretpulkstenis"
         };
 
         int NepareiziMeginajumi;
