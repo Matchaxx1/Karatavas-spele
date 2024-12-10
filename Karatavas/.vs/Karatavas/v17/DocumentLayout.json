@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{209D461A-EC7D-445C-B86A-CAAF23CFE1FB}|Karatavas\\Karatavas.csproj|solutionrelative:karatavas\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{209D461A-EC7D-445C-B86A-CAAF23CFE1FB}|Karatavas\\Karatavas.csproj|C:\\Users\\matis\\OneDrive\\Dokumenti\\GitHub\\Karatavas-Spele\\Karatavas\\karatavas\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209D461A-EC7D-445C-B86A-CAAF23CFE1FB}|Karatavas\\Karatavas.csproj|solutionrelative:karatavas\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{209D461A-EC7D-445C-B86A-CAAF23CFE1FB}|Karatavas\\Karatavas.csproj|C:\\Users\\matis\\OneDrive\\Dokumenti\\GitHub\\Karatavas-Spele\\Karatavas\\karatavas\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{209D461A-EC7D-445C-B86A-CAAF23CFE1FB}|Karatavas\\Karatavas.csproj|solutionrelative:karatavas\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{209D461A-EC7D-445C-B86A-CAAF23CFE1FB}|Karatavas\\Karatavas.csproj|C:\\Users\\matis\\OneDrive\\Dokumenti\\GitHub\\Karatavas-Spele\\Karatavas\\karatavas\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{209D461A-EC7D-445C-B86A-CAAF23CFE1FB}|Karatavas\\Karatavas.csproj|solutionrelative:karatavas\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{209D461A-EC7D-445C-B86A-CAAF23CFE1FB}|Karatavas\\Karatavas.csproj|C:\\Users\\matis\\OneDrive\\Dokumenti\\GitHub\\Karatavas-Spele\\Karatavas\\Karatavas\\Form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{209D461A-EC7D-445C-B86A-CAAF23CFE1FB}|Karatavas\\Karatavas.csproj|solutionrelative:Karatavas\\Form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{209D461A-EC7D-445C-B86A-CAAF23CFE1FB}|Karatavas\\Karatavas.csproj|C:\\Users\\matis\\OneDrive\\Dokumenti\\GitHub\\Karatavas-Spele\\Karatavas\\Karatavas\\Form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,7 +55,7 @@
               "RelativeDocumentMoniker": "Karatavas\\Form2.cs",
               "ToolTip": "C:\\Users\\matis\\OneDrive\\Dokumenti\\GitHub\\Karatavas-Spele\\Karatavas\\Karatavas\\Form2.cs",
               "RelativeToolTip": "Karatavas\\Form2.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAcwD4AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAYwCgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T13:34:32.906Z",
               "IsPinned": true,
@@ -67,13 +67,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\Users\\matis\\OneDrive\\Dokumenti\\GitHub\\Karatavas-Spele\\Karatavas\\Karatavas\\Form3.cs",
               "RelativeDocumentMoniker": "Karatavas\\Form3.cs",
               "ToolTip": "C:\\Users\\matis\\OneDrive\\Dokumenti\\GitHub\\Karatavas-Spele\\Karatavas\\Karatavas\\Form3.cs",
               "RelativeToolTip": "Karatavas\\Form3.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBsAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T19:58:43.238Z"
             },
@@ -91,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form4.cs [Design]",
               "DocumentMoniker": "C:\\Users\\matis\\OneDrive\\Dokumenti\\GitHub\\Karatavas-Spele\\Karatavas\\Karatavas\\Form4.cs",
               "RelativeDocumentMoniker": "Karatavas\\Form4.cs",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Form3.cs [Design]",
               "DocumentMoniker": "C:\\Users\\matis\\OneDrive\\Dokumenti\\GitHub\\Karatavas-Spele\\Karatavas\\Karatavas\\Form3.cs",
               "RelativeDocumentMoniker": "Karatavas\\Form3.cs",
@@ -113,19 +113,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\matis\\OneDrive\\Dokumenti\\GitHub\\Karatavas-Spele\\Karatavas\\Karatavas\\Form2.cs",
               "RelativeDocumentMoniker": "Karatavas\\Form2.cs",
               "ToolTip": "C:\\Users\\matis\\OneDrive\\Dokumenti\\GitHub\\Karatavas-Spele\\Karatavas\\Karatavas\\Form2.cs [Design]",
               "RelativeToolTip": "Karatavas\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T13:34:30.224Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-02T13:34:30.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\matis\\OneDrive\\Dokumenti\\GitHub\\Karatavas-Spele\\Karatavas\\Karatavas\\Form1.cs",
               "RelativeDocumentMoniker": "Karatavas\\Form1.cs",
@@ -133,20 +132,18 @@
               "RelativeToolTip": "Karatavas\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAArwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T12:43:13.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T12:43:13.652Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\matis\\OneDrive\\Dokumenti\\GitHub\\Karatavas-Spele\\Karatavas\\Karatavas\\Form1.cs",
               "RelativeDocumentMoniker": "Karatavas\\Form1.cs",
               "ToolTip": "C:\\Users\\matis\\OneDrive\\Dokumenti\\GitHub\\Karatavas-Spele\\Karatavas\\Karatavas\\Form1.cs [Design]",
               "RelativeToolTip": "Karatavas\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T12:38:26.023Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-02T12:38:26.023Z"
             },
             {
               "$type": "Document",
