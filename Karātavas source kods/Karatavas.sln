@@ -5,8 +5,6 @@ VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karatavas", "Karatavas\Karatavas.csproj", "{209D461A-EC7D-445C-B86A-CAAF23CFE1FB}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "KarātavasSetup", "KarātavasSetup\KarātavasSetup.vdproj", "{AFAA0E1E-664D-415B-B680-CB085CC00A6C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		All|Any CPU = All|Any CPU
@@ -20,9 +18,6 @@ Global
 		{209D461A-EC7D-445C-B86A-CAAF23CFE1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{209D461A-EC7D-445C-B86A-CAAF23CFE1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{209D461A-EC7D-445C-B86A-CAAF23CFE1FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AFAA0E1E-664D-415B-B680-CB085CC00A6C}.All|Any CPU.ActiveCfg = Debug
-		{AFAA0E1E-664D-415B-B680-CB085CC00A6C}.Debug|Any CPU.ActiveCfg = Debug
-		{AFAA0E1E-664D-415B-B680-CB085CC00A6C}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
